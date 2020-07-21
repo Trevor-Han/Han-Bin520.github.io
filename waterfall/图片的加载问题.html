@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片的加载问题</title>
+</head>
+<body>
+<script>
+    /*
+    // 1.创建一个img标签
+    let oImg = document.createElement("img");
+    // 2.设置img标签的图片地址
+    oImg.src = "images/img01.jpg";
+    // 3.将img标签添加到body中
+    document.body.appendChild(oImg);
+    console.log(oImg.offsetHeight);
+    oImg.onload = function () {
+        console.log(oImg.offsetHeight);
+    }
+     */
+    /*
+    preLoadImage("images/img01.jpg", function (oImg) {
+        document.body.appendChild(oImg);
+        console.log(oImg.offsetHeight);
+    });
+     */
+
+    let urls = ["images/img01.jpg", "images/img02.jpg", "images/img03.jpg"];
+    preLoadImages(urls, function (oImages) {
+        console.log(oImages);
+    });
+    function preLoadImage(url, fn) {
+        // 1.创建一个img标签
+        let oImg = document.createElement("img");
+        // 2.设置img标签的图片地址
+        oImg.src = url;
+        // 3.监听图片是否加载完成了
+        oImg.onload = function () {
+            fn(oImg);
+        }
+    }
+    function preLoadImages(urls, fn) {
+        // 1.定义变量记录总共有多少张图片需要加载
+        let totalCount = urls.length;
+        // 2.定义变量记录当前已经加载了多少张图片
+        let count = 0;
+        // 3.定义数组保存所有加载好的图片
+        let oImages = [];
+        // 4.循环遍历加载图片
+        for(let i = 0; i < urls.length; i ++){
+            let url = urls[i];
+            preLoadImage(url, function (oImg) {
+                oImages.push(oImg);
+                count++;
+                if(count === totalCount){
+                    fn(oImages);
+                }
+            });
+        }
+    }
+</script>
+</body>
+</html>

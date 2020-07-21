@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>手风琴效果</title>
+    <link rel="stylesheet/less" href="css/style.less">
+</head>
+<body>
+<div class="organ">
+    <div class="organ-list">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+    <div class="organ-list">
+        <ul>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+        </ul>
+    </div>
+</div>
+
+
+<script src="js/less.js"></script>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script>
+    $(function () {
+        let $nth = $(".organ-list>ul>li:nth-of-type(4n)");
+        $nth.hover(function () {
+            $(this).addClass("m2");
+            $(this).css("z-index","499");
+        },function () {
+            $(this).css("z-index","299");
+        })
+    })
+</script>
+</body>
+</html>

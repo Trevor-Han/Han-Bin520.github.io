@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .animated{
+            background: #f00;
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+    <script src="lottie.js"></script>
+</head>
+<body>
+<div class="animated"></div>
+
+<script>
+    let lottieIn = lottie.loadAnimation({
+        container:document.querySelector(".animated"),
+        renderer:"svg",
+        loop:true,
+        path:"lottie1.json"
+    });
+</script>
+</body>
+</html>

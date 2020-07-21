@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery工具类封装测试</title>
+    <script src="Myjquery.js"></script>
+    <style>
+        img {
+            display: block;
+            margin-bottom: 50px;
+            transition: opacity 2s ease-in-out;
+            opacity: 0.4
+
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <p><img src="images/loading.gif" data-src="images/balloon.png" alt="none more">
+        <img src="images/loading.gif" data-src="images/balloon.png" alt="none more">
+        <img src="images/loading.gif" data-src="images/balloon.png" alt="none more">
+        <img src="images/loading.gif" data-src="images/balloon.png" alt="none more">
+        <img src="images/loading.gif" data-src="images/balloon2.png" alt="none more">
+        <img src="images/loading.gif" data-src="images/balloon2.png" alt="none more">
+        <img src="images/loading.gif" data-src="images/balloon2.png" alt="none more">
+        <img src="images/loading.gif" data-src="images/balloon2.png" alt="none more">
+        <img src="images/loading.gif" data-src="images/balloon2.png" alt="none more">
+        <img src="images/loading.gif" data-src="images/balloon2.png" alt="none more">
+        <img src="images/loading.gif" data-src="images/balloon3.png" alt="none more">
+        <img src="images/loading.gif" data-src="images/balloon3.png" alt="none more">
+        <img src="images/loading.gif" data-src="images/balloon3.png" alt="none more">
+        <img src="images/loading.gif" data-src="images/balloon3.png" alt="none more">
+    </p>
+</div>
+<!--<script>
+    function throttle(fn, delay, atleast) {//函数绑定在 scroll 事件上，当页面滚动时，避免函数被高频触发，
+        var timeout = null,//进行去抖处理
+            startTime = new Date();
+        return function() {
+            var curTime = new Date();
+            clearTimeout(timeout);
+            if(curTime - startTime >= atleast) {
+                fn();
+                startTime = curTime;
+            }else {
+                timeout = setTimeout(fn, delay);
+            }
+        }
+    }
+    function lazyload() {
+        var images = document.getElementsByTagName('img');
+        var len    = images.length;
+        var n      = 0;      //存储图片加载到的位置，避免每次都从第一张图片开始遍历
+        return function() {
+            var seeHeight = document.documentElement.clientHeight;
+            var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            for(var i = n; i < len; i++) {
+                if(images[i].offsetTop < seeHeight + scrollTop) {
+                    if(images[i].getAttribute('src') === 'js/images/loading.gif') {
+                        images[i].src = images[i].getAttribute('data-src');
+
+                    }
+                    console.log(images);
+                    n = n + 1;
+                }
+            }
+        }
+    }
+    var loadImages = lazyload();
+    loadImages();          //初始化首页的页面图片
+    window.addEventListener('scroll', throttle(loadImages, 500, 1000), false);
+    //函数节流（throttle）与函数去抖（debounce）处理,
+    //500ms 的延迟，和 1000ms 的间隔，当超过 1000ms 未触发该函数，则立即执行该函数，不然则延迟 500ms 执行该函数
+</script>-->
+<!--<script>
+    // onload是等所有的资源文件加载完毕以后再绑定事件
+    window.onload = function(){
+        // 获取图片列表，即img标签列表
+        var imgs = document.querySelectorAll('img');
+
+        // 获取到浏览器顶部的距离
+        function getTop(e){
+            return e.offsetTop;
+        }
+
+        // 懒加载实现
+        function lazyload(imgs){
+            // 可视区域高度
+            var h = window.innerHeight;
+            //滚动区域高度
+            var s = document.documentElement.scrollTop || document.body.scrollTop;
+            for(var i=0;i<imgs.length;i++){
+                //图片距离顶部的距离大于可视区域和滚动区域之和时懒加载
+                if ((h+s)>getTop(imgs[i])) {
+                    // 真实情况是页面开始有1秒空白，所以使用setTimeout定时1s
+                    (function(i){
+                        setTimeout(function(){
+                            // 不加立即执行函数i会等于9
+                            // 隐形加载图片或其他资源，
+                            //创建一个临时图片，这个图片在内存中不会到页面上去。实现隐形加载
+                            var temp = new Image();
+                            temp.src = imgs[i].getAttribute('data-src');//只会请求一次
+                            // onload判断图片加载完毕，真是图片加载完毕，再赋值给dom节点
+                            temp.onload = function(){
+                                // 获取自定义属性data-src，用真图片替换假图片
+                                imgs[i].src = imgs[i].getAttribute('data-src')
+                            }
+                        },1000)
+                    })(i)
+                }
+            }
+        }
+        lazyload(imgs);
+
+        // 滚屏函数
+        window.onscroll =function(){
+            lazyload(imgs);
+        }
+    }
+</script>-->
+<script>
+    let myjQuery = new Myjquery();
+    let lazyLoad = myjQuery.Lazyload(".box");
+    lazyLoad();
+    window.addEventListener("scroll",myjQuery.Throttle(lazyLoad,300,800),false);
+</script>
+</body>
+</html>
