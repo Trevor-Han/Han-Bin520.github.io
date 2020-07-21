@@ -14,11 +14,11 @@ defaults:
     values:
       image: true
 
-title: Minimalism
-name: minimalism
+title: HAN-BIN
+name: HAN-BIN
 description: Minimalism is a jekyll theme for minimalist
 
-github: https://github.com/showzeng/Minimalism
+github: https://github.com/Han-Bin520
 rss: true
 
 plugins:
