@@ -1,0 +1,15 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "bulid": "vuepress build docs",
+    "deploy": "zsh deploy.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
