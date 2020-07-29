@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18fd96fa-1ca1-45a5-927c-936b139e305c" name="默认更改列表" comment="dev all">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/architect/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/css/0.styles.49235e0a.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/img/search.83621669.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/2.f5b32a39.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/3.a59552b9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/4.01d67e6d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/foo/css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/foo/git.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/foo/html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/foo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/foo/jquery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/foo/js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/foo/storage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/logo.icon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/logo.icon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/public/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/.vuepress/styles/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/architect/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/foo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/foo/css.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/foo/git.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/foo/html.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/foo/jquery.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/foo/js.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/foo/storage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1260">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/foo/html.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="8352">
+                <caret line="232" selection-start-line="232" selection-end-line="232" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/foo/storage.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="2304">
+                <caret line="64" selection-start-line="64" selection-end-line="64" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>name</find>
+      <find>markup</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>markdown</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
+    <option name="RECENT_COMMON_BRANCH" value="master" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/iPhone-animate/iphone.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/myblog/docs/.vuepress/README.md" />
+        <option value="$PROJECT_DIR$/myblog/package.json" />
+        <option value="$PROJECT_DIR$/myblog/docs/basics/ERADME.md" />
+        <option value="$PROJECT_DIR$/myblog/docs/project/README.md" />
+        <option value="$PROJECT_DIR$/myblog/docs/association/README.md" />
+        <option value="$PROJECT_DIR$/myblog/docs/article/README.md" />
+        <option value="$PROJECT_DIR$/myblog/docs/architect/README.md" />
+        <option value="$PROJECT_DIR$/myblog/docs/README.md" />
+        <option value="$PROJECT_DIR$/myblog/docs/foo/README.md" />
+        <option value="$PROJECT_DIR$/myblog/docs/foo/two.md" />
+        <option value="$PROJECT_DIR$/myblog/docs/foo/one.md" />
+        <option value="$PROJECT_DIR$/myblog/docs/.vuepress/config.js" />
+        <option value="$PROJECT_DIR$/myblog/node_modules/deploy.sh" />
+        <option value="$PROJECT_DIR$/myblog/.travis.yml" />
+        <option value="$PROJECT_DIR$/myblog/deploy.sh" />
+        <option value="$PROJECT_DIR$/deploy.sh" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/styles/style.styl" />
+        <option value="$PROJECT_DIR$/docs/README.md" />
+        <option value="$PROJECT_DIR$/dev.sh" />
+        <option value="$PROJECT_DIR$/docs/git/README.md" />
+        <option value="$PROJECT_DIR$/docs/foo/README.md" />
+        <option value="$PROJECT_DIR$/docs/foo/one.md" />
+        <option value="$PROJECT_DIR$/docs/foo/git.md" />
+        <option value="$PROJECT_DIR$/docs/foo/js.md" />
+        <option value="$PROJECT_DIR$/docs/foo/css.md" />
+        <option value="$PROJECT_DIR$/docs/foo/jquery.md" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/styles/index.styl" />
+        <option value="$PROJECT_DIR$/docs/foo/storage.md" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
+        <option value="$PROJECT_DIR$/docs/foo/html.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1081" />
+    <option name="width" value="846" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Han-Bin520.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Han-Bin520.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\my\Git Product\Han-Bin520.github.io" />
+      <recent name="E:\my\Git Product\Han-Bin520.github.io\docs" />
+      <recent name="E:\my\Git Product\Han-Bin520.github.io\docs\.vuepress\public" />
+      <recent name="E:\my\Git Product\Han-Bin520.github.io\myblog\docs\.vuepress\public" />
+      <recent name="E:\my\Git Product\Han-Bin520.github.io\assets\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\my\Git Product\Han-Bin520.github.io\myblog" />
+      <recent name="E:\my\Git Product\Han-Bin520.github.io\myblog\docs" />
+      <recent name="E:\my\Git Product\Han-Bin520.github.io" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.config.js">
+    <configuration name="config.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/docs/.vuepress/config.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="Node.js.config.js" />
+        <item itemvalue="Node.js.config.js" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18fd96fa-1ca1-45a5-927c-936b139e305c" name="默认更改列表" comment="" />
+      <created>1595316540239</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595316540239</updated>
+      <workItem from="1595316541891" duration="5549000" />
+      <workItem from="1595324470395" duration="1669000" />
+      <workItem from="1595414345371" duration="7000" />
+      <workItem from="1595475857808" duration="14891000" />
+      <workItem from="1595559672120" duration="13112000" />
+      <workItem from="1595586133433" duration="123000" />
+      <workItem from="1595636205168" duration="1200000" />
+      <workItem from="1595811050321" duration="8516000" />
+      <workItem from="1595904891499" duration="8855000" />
+      <workItem from="1595924774048" duration="675000" />
+      <workItem from="1595929988814" duration="35000" />
+    </task>
+    <task id="LOCAL-00001" summary="my first www commit">
+      <created>1595317322296</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595317322296</updated>
+    </task>
+    <task id="LOCAL-00002" summary="my www commit">
+      <created>1595318904963</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595318904963</updated>
+    </task>
+    <task id="LOCAL-00003" summary="my www commit">
+      <created>1595319314153</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595319314153</updated>
+    </task>
+    <task id="LOCAL-00004" summary="my www commit">
+      <created>1595320209411</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595320209411</updated>
+    </task>
+    <task id="LOCAL-00005" summary="my www commit">
+      <created>1595320411591</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595320411591</updated>
+    </task>
+    <task id="LOCAL-00006" summary="my www commit">
+      <created>1595325608390</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595325608390</updated>
+    </task>
+    <task id="LOCAL-00007" summary="my www commit">
+      <created>1595326133753</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595326133753</updated>
+    </task>
+    <task id="LOCAL-00008" summary="my vuepress blog">
+      <created>1595487732000</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595487732000</updated>
+    </task>
+    <task id="LOCAL-00009" summary="my vuepress blog">
+      <created>1595488642297</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595488642297</updated>
+    </task>
+    <task id="LOCAL-00010" summary="my vuepress blog">
+      <created>1595493679293</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595493679293</updated>
+    </task>
+    <task id="LOCAL-00011" summary="my vuepress blog">
+      <created>1595493711502</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1595493711502</updated>
+    </task>
+    <task id="LOCAL-00012" summary="my vuepress blog">
+      <created>1595494230230</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1595494230230</updated>
+    </task>
+    <task id="LOCAL-00013" summary="my vuepress blog">
+      <created>1595494999495</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1595494999495</updated>
+    </task>
+    <task id="LOCAL-00014" summary="my vuepress blog">
+      <created>1595495159918</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1595495159918</updated>
+    </task>
+    <task id="LOCAL-00015" summary="dev all">
+      <created>1595641125378</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1595641125378</updated>
+    </task>
+    <task id="LOCAL-00016" summary="dev all">
+      <created>1595644722880</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1595644722880</updated>
+    </task>
+    <task id="LOCAL-00017" summary="dev all">
+      <created>1595644843152</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1595644843152</updated>
+    </task>
+    <task id="LOCAL-00018" summary="dev all">
+      <created>1595645352929</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1595645352929</updated>
+    </task>
+    <task id="LOCAL-00019" summary="dev all">
+      <created>1595645382511</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1595645382511</updated>
+    </task>
+    <task id="LOCAL-00020" summary="dev all">
+      <created>1595663156174</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1595663156174</updated>
+    </task>
+    <task id="LOCAL-00021" summary="dev all">
+      <created>1595664133606</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1595664133606</updated>
+    </task>
+    <task id="LOCAL-00022" summary="dev all">
+      <created>1595665459121</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1595665459121</updated>
+    </task>
+    <task id="LOCAL-00023" summary="dev all">
+      <created>1595816141375</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1595816141375</updated>
+    </task>
+    <task id="LOCAL-00024" summary="dev all">
+      <created>1595816618080</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1595816618080</updated>
+    </task>
+    <task id="LOCAL-00025" summary="dev all">
+      <created>1595821879453</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1595821879454</updated>
+    </task>
+    <task id="LOCAL-00026" summary="dev all">
+      <created>1595908443639</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1595908443639</updated>
+    </task>
+    <task id="LOCAL-00027" summary="dev all">
+      <created>1595909006718</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1595909006718</updated>
+    </task>
+    <task id="LOCAL-00028" summary="dev all">
+      <created>1595915926413</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1595915926413</updated>
+    </task>
+    <task id="LOCAL-00029" summary="dev all">
+      <created>1595917338231</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1595917338231</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="65609000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17702845" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32968238" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32968238" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49894625" visible="true" weight="0.3253796" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003509" side_tool="true" weight="0.32858709" />
+      <window_info anchor="bottom" id="调试" order="11" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="my first www commit" />
+    <MESSAGE value="my www commit" />
+    <MESSAGE value="my vuepress blog" />
+    <MESSAGE value="dev all" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev all" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/huawei/index.html" />
+    <entry file="file://$PROJECT_DIR$/iPhone-animate/iphone.html" />
+    <entry file="file://$PROJECT_DIR$/animate-window/index.html" />
+    <entry file="file://$PROJECT_DIR$/_layouts/post.html" />
+    <entry file="file://$PROJECT_DIR$/index.md" />
+    <entry file="file://$PROJECT_DIR$/categories.md" />
+    <entry file="file://$PROJECT_DIR$/_layouts/archive.html" />
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html" />
+    <entry file="file://$PROJECT_DIR$/assets/js/lock_copy.js" />
+    <entry file="file://$PROJECT_DIR$/assets/js/lock_menu.js" />
+    <entry file="file://$PROJECT_DIR$/assets/js/post_content_init.js" />
+    <entry file="file://$PROJECT_DIR$/about.md" />
+    <entry file="file://$PROJECT_DIR$/feed.xml" />
+    <entry file="file://$PROJECT_DIR$/LICENSE.txt" />
+    <entry file="file://$PROJECT_DIR$/docs/screenshot.png" />
+    <entry file="file://$PROJECT_DIR$/_layouts/index.html" />
+    <entry file="file://$PROJECT_DIR$/_config.yml" />
+    <entry file="file://$PROJECT_DIR$/.travis.yml" />
+    <entry file="file://$PROJECT_DIR$/myblog/docs/article/README.md" />
+    <entry file="file://$PROJECT_DIR$/myblog/docs/project/README.md" />
+    <entry file="file://$PROJECT_DIR$/myblog/docs/association/README.md" />
+    <entry file="file://$PROJECT_DIR$/myblog/docs/architect/README.md" />
+    <entry file="file://$PROJECT_DIR$/myblog/docs/.vuepress/dist/assets/img/search.83621669.svg" />
+    <entry file="file://$PROJECT_DIR$/myblog/docs/basics/README.md" />
+    <entry file="file://$PROJECT_DIR$/myblog/docs/README.md" />
+    <entry file="file://$PROJECT_DIR$/myblog/docs/foo/README.md" />
+    <entry file="file://$PROJECT_DIR$/myblog/docs/foo/two.md" />
+    <entry file="file://$PROJECT_DIR$/myblog/docs/foo/one.md" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/myblog/docs/.vuepress/config.js" />
+    <entry file="file://$PROJECT_DIR$/myblog/package.json" />
+    <entry file="file://$PROJECT_DIR$/myblog/.travis.yml" />
+    <entry file="file://$PROJECT_DIR$/myblog/deploy.sh" />
+    <entry file="file://$PROJECT_DIR$/dev.sh" />
+    <entry file="file://$PROJECT_DIR$/docs/git/README.md" />
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/public/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/public/3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/foo/README.md" />
+    <entry file="file://$PROJECT_DIR$/docs/README.md" />
+    <entry file="file://$PROJECT_DIR$/deploy.sh" />
+    <entry file="file://$PROJECT_DIR$/docs/foo/js.md" />
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/styles/index.styl" />
+    <entry file="file://$PROJECT_DIR$/docs/foo/git.md" />
+    <entry file="file://$PROJECT_DIR$/docs/foo/css.md" />
+    <entry file="file://$PROJECT_DIR$/docs/foo/jquery.md" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/foo/js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#6990#6996#0" expanded="true" />
+            <element signature="e#6999#7005#0" expanded="true" />
+            <element signature="e#8172#8176#0" expanded="true" />
+            <element signature="e#8529#8535#0" expanded="true" />
+            <element signature="e#8542#8548#0" expanded="true" />
+            <element signature="e#8909#8915#0" expanded="true" />
+            <element signature="e#8918#8924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/foo/html.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="8352">
+            <caret line="232" selection-start-line="232" selection-end-line="232" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/foo/storage.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="2304">
+            <caret line="64" selection-start-line="64" selection-end-line="64" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
