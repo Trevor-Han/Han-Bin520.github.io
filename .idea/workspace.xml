@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18fd96fa-1ca1-45a5-927c-936b139e305c" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/architect/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/css/0.styles.49235e0a.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/img/search.83621669.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/10.ec9756dc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/11.4ca51acd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/12.50514ab3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/13.e2204707.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/2.f5b32a39.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/3.a59552b9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/4.01d67e6d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/5.5beed963.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/6.69a303d6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/7.492781ea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/8.435a5507.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/9.343f8ed5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/app.dcc5f4f4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/foo/css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/foo/git.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/foo/html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/foo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/foo/jquery.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/foo/js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/foo/storage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/logo.icon" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/.vuepress/dist/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            <state relative-caret-position="141">
+              <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -68,16 +40,21 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+              <caret lean-forward="true" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy.sh">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/foo/storage.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="2304">
+              <first_editor relative-caret-position="497">
                 <caret line="64" selection-start-line="64" selection-end-line="64" />
               </first_editor>
               <second_editor />
@@ -150,8 +127,8 @@
         <option value="$PROJECT_DIR$/docs/foo/jquery.md" />
         <option value="$PROJECT_DIR$/docs/.vuepress/styles/index.styl" />
         <option value="$PROJECT_DIR$/docs/foo/storage.md" />
-        <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
         <option value="$PROJECT_DIR$/docs/foo/html.md" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -169,7 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,10 +153,22 @@
               <item name="Han-Bin520.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="Han-Bin520.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Han-Bin520.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Han-Bin520.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Han-Bin520.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Han-Bin520.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name=".vuepress" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,6 +250,7 @@
       <workItem from="1595924774048" duration="675000" />
       <workItem from="1595929988814" duration="35000" />
       <workItem from="1595986061152" duration="392000" />
+      <workItem from="1596271611959" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="my first www commit">
       <created>1595317322296</created>
@@ -470,7 +459,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66001000" />
+    <option name="totallyTimeSpent" value="66255000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,7 +485,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32968238" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286334" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49894625" weight="0.32502708" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49894625" visible="true" weight="0.324295" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003509" side_tool="true" weight="0.32858709" />
       <window_info anchor="bottom" id="调试" order="11" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -598,7 +587,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/foo/README.md" />
     <entry file="file://$PROJECT_DIR$/docs/README.md" />
-    <entry file="file://$PROJECT_DIR$/deploy.sh" />
     <entry file="file://$PROJECT_DIR$/docs/foo/js.md" />
     <entry file="file://$PROJECT_DIR$/docs/.vuepress/styles/index.styl" />
     <entry file="file://$PROJECT_DIR$/docs/foo/git.md" />
@@ -622,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/foo/html.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -639,20 +620,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/foo/storage.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="2304">
+          <first_editor relative-caret-position="497">
             <caret line="64" selection-start-line="64" selection-end-line="64" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/deploy.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
