@@ -3,19 +3,6 @@ module.exports = {
     description: "MY BLOG",
     head: [
         ["link", { rel: "icon", href: "/logo.icon"}],
-        [
-            "script",
-            {},
-            `
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?dabfeb7bb142d94f3b74070595d7dad1";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-`
-        ]
     ],
     markdown: {
         lineNumber:true,
