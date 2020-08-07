@@ -1,6 +1,7 @@
 module.exports = {
     title: "HAN-BIN",
     description: "MY BLOG",
+    base:"Han-Bin520.github.io",
     head: [
         ["link", { rel: "icon", href: "/logo.icon"}],
     ],
