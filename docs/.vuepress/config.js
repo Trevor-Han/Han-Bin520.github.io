@@ -30,6 +30,7 @@ module.exports = {
                     { title: "jquery",path: "/foo/jquery"},
                     { title: "storage",path: "/foo/storage"},
                     { title: "HTTP/HTML",path: "/foo/html"},
+                    { title: "vue",path: "/foo/vue"},
                 ]
             }]
         }
