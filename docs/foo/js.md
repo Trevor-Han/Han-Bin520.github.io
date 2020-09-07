@@ -20,7 +20,112 @@ offsetHeight不包括伪元素（pseudo-elements， :after, :before ）的高度
 
 - scrollHeight:如果要不使用scroll，完整显示该元素所需要的高度（包括padding和伪元素，不包括border和margin），
 如果元素可以不需要垂直滚动条就完全显示出来，则 scrollHeight = clientHeight。
+## 获取滚动条的滚动距离
+```js
+//第一种方式：当body的overflow为auto或scroll时使用
+ $('body,html').scroll(function () {
+            let offsetY = $("body").scrollTop() + $("html").scrollTop();
+});
+//第二种方式：常规使用
+ $(window).scroll(function () {
+            let offsetY = $("body").scrollTop() + $("html").scrollTop();
+});
+//第二种方式：offsetY是window的偏移位
+ $(window).scroll(function () {
+            let offsetY = window.pageYOffset;
+});
+```
+## 获取当前滚动高度，并保存当前高度
+```js
+  let top = 0;
+  let $nav = $("body");
+  function getPopup(){
+        top = window.pageYOffset;
+        $nav.css({
+            position:"fixed",
+            width:"100%",
+            top:-top,
+            overflow: "hidden"
+        });
+        return top;
+    }
+    function getPopDown(){
+        $nav.attr('style',"");
+        $nav.css("position","relative");
+        window.scrollTo(0, top);
+        console.log(window.scrollTo);
+        top = 0;
+        return false;
+    }
+```
+## 瀑布流
+```js
+function waterfall(ibox,item) {
+        let pos = [],
+            $items = $(item),
+            fontSize = getComputedStyle(window.document.documentElement)['font-size'].split('px')[0],
+            _box_width = $(ibox).width() / fontSize,
+            _owidth = $items.eq(0).width() / fontSize + .2,
+            _num = Math.floor(_box_width / _owidth);
+        let i = 0;
+        for (; i < _num; i++) {
+            pos.push([i * _owidth, 0]);
+        }
+        $items.each(function () {
+            let _this = $(this),
+                _temp = 0,
+                _height = _this.height() / fontSize + .23;
 
+            for (let j = 0; j < _num; j++) {
+                if (pos[j][1] < pos[_temp][1]) {
+                    _temp = j;
+                }
+            }
+            this.style.cssText = 'left:' + (pos[_temp][0] + .20) + 'rem; top:' + pos[_temp][1] + 'rem;';
+            pos[_temp][1] = pos[_temp][1] + _height;
+            $(ibox).css("height",(pos[_temp][1]+3)+"rem");//动态获设置父类高度
+        });
+    }
+```
+## 侧边栏的fixed，不同高度的侧边栏
+```js
+function sideBerFixed(obj,all) {
+    let articlesList = $(obj);
+    //获取该div(侧边栏)距离顶部距离
+    let sideOffset = articlesList.offset().top;
+    //获取该div(侧边栏)所在的父类高度
+    let allHeight = $(all).height();
+    //获取该div(侧边栏)的高度
+    let sideHeight = articlesList.height(); 
+    //div(侧边栏)到达父类底部时距离该父类的顶部距离top
+    let fixedHeight = allHeight - sideHeight;
+    $(window).scroll(function () {
+        let scroll = $("html,body").scrollTop();
+        //定义一个变量h，判断div(侧边栏)是否到达父类底部
+        let h = scroll - fixedHeight- (sideOffset-122) ;
+        //滚动条到达div(侧边栏)的高度时，开始执行fixed
+        if (scroll > sideOffset-122 && h < 0){
+            articlesList.css({
+                top:90,
+                position:"fixed",
+            });
+        }
+        //div(侧边栏)到达底部，即h>0时，固定div(侧边栏)的top
+        else if (h >= 0) {
+            articlesList.css({
+                top: fixedHeight,
+                position:"relative",
+            });
+        }
+        else if (scroll < sideOffset-122) {
+            articlesList.css({
+                top: 0,
+                position:"relative",
+            });
+        }
+    })
+}
+```
 ## 距顶部距离
 ```js
     let clientHeight = document.documentElement.clientHeight;
@@ -39,6 +144,38 @@ offsetHeight不包括伪元素（pseudo-elements， :after, :before ）的高度
    
        }
 ```
+## 移动端适配方案
+```js
+// 纯移动端
+let scale = 1.0 / window.devicePixelRatio;
+        let text = `<meta name="viewport" content="width=device-width,
+                     initial-scale=${scale},
+                     maximum-scale=${scale},
+                     minimum-scale=${scale},
+                     user-scalable=no">`;
+        document.write(text);
+        document.documentElement.style.fontSize = window.innerWidth / 7.5 + "px";
+ ```
+ ```js
+ // 半移动端
+    (function (doc, win) {
+         let docEl = doc.documentElement,
+             resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+             recalc = function () {
+                 let clientWidth = docEl.clientWidth;
+                 if (!clientWidth) return;
+                 if(clientWidth>=750){
+                     docEl.style.fontSize = '100px';
+                 }else{
+                     docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                 }
+             };
+ 
+         if (!doc.addEventListener) return;
+         win.addEventListener(resizeEvt, recalc, false);
+         doc.addEventListener('DOMContentLoaded', recalc, false);
+     })(document, window);
+  ```
 ## 跨域问题
 - JSONP
 

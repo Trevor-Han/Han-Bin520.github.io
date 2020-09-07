@@ -1,12 +1,12 @@
 module.exports = {
     title: "HAN-BIN",
     description: "MY BLOG",
-    base:"Han-Bin520.github.io",
+    base:"/blog/",
     head: [
-        ["link", { rel: "icon", href: "/logo.icon"}],
+        ["link", { rel: "shortcut icon", type: "image/x-icon", href: "./logo.ico"}],
     ],
     markdown: {
-        lineNumber:true,
+        lineNumbers:true,
     },
     themeConfig: {
         smoothScroll: true,
@@ -14,7 +14,7 @@ module.exports = {
         nav: [
             { text: "首页", link: "/" },
             { text: "笔记", link: "/foo/" },
-            { text: "前端架构师", link: "/architect/" },
+            { text: "前端架构师", link: "https://hanbin666.gitee.io/resume/" },
             { text: "github", link: "https://github.com/Han-Bin520/" }
         ],
         sidebar: {
@@ -32,7 +32,7 @@ module.exports = {
                     { title: "HTTP/HTML",path: "/foo/html"},
                     { title: "vue",path: "/foo/vue"},
                 ]
-            }]
+            }],
         }
     }
 };
