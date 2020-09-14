@@ -23,14 +23,15 @@ module.exports = {
                 collapsable:false,
                 sidebarDepth:3,
                 children: [
-                    { title: "markdown基本语法",path: "/foo/"},
-                    { title: "git基本命令",path: "/foo/git"},
-                    { title: "css",path: "/foo/css"},
-                    { title: "js",path: "/foo/js"},
-                    { title: "jquery",path: "/foo/jquery"},
+                    { title: "Markdown基本语法",path: "/foo/"},
+                    { title: "Git基本命令",path: "/foo/Git"},
+                    { title: "CSS",path: "/foo/CSS"},
+                    { title: "JS",path: "/foo/JS"},
+                    { title: "jQuery",path: "/foo/jQuery"},
                     { title: "storage",path: "/foo/storage"},
-                    { title: "HTTP/HTML",path: "/foo/html"},
-                    { title: "vue",path: "/foo/vue"},
+                    { title: "HTTP/HTML",path: "/foo/HTML"},
+                    { title: "Vue",path: "/foo/Vue"},
+                    { title: "Node",path: "/foo/Node"},
                 ]
             }],
         }

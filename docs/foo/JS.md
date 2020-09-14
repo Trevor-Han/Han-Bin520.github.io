@@ -186,7 +186,7 @@ let scale = 1.0 / window.devicePixelRatio;
 向通信。缺点是只支持GET请求。
 
 ```javascript
-functioncreateJs(sUrl) {
+function createJs(sUrl) {
 var oScript =document.createElement('script');
 oScript.type = 'text/javascript';
 oScript.src= sUrl;
@@ -196,7 +196,7 @@ createJs('jsonp.js');
 box({
 'name': 'test'
 });
-functionbox(json){
+function box(json){
 alert(json.name);
 }
 ```
